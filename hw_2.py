@@ -11,3 +11,11 @@
 # 6 -> 1  4  1
 # 24 -> 4  16  4
 #     60 -> 10  40  10
+
+def count(sum):
+    count = sum
+    countSerPetya = (count/2)/2
+    countKatya = countSerPetya*2
+    print('Петя сделал: '+str(countSerPetya)+' Сережа сделал: '+str(countSerPetya)+' Катя сделала:'+str(countKatya))
+
+count(40)
