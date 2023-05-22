@@ -14,8 +14,8 @@
 
 def count(sum):
     count = sum
-    countSerPetya = (count/2)/2
-    countKatya = countSerPetya*2
+    countSerPetya = round(count*0.166)
+    countKatya = countSerPetya*4
     print('Петя сделал: '+str(countSerPetya)+' Сережа сделал: '+str(countSerPetya)+' Катя сделала:'+str(countKatya))
 
-count(40)
+count(60)
