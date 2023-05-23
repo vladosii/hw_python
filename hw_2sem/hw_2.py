@@ -9,3 +9,12 @@
 # Примеры/Тесты:
 # 4 4 -> 2 2
 # 5 6 -> 2 3
+
+import math
+
+def number(s, p):
+    x = math.sqrt(s)
+    y = s - x
+    print(round(x), round(y))
+
+number(4, 4)
