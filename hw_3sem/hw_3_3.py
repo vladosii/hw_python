@@ -77,9 +77,9 @@ string = 'notebook'
 sum = 0
 
 for item in keywords:
-    for val in item:
-        for let in string:
-            if (val == let.upper()):
-                sum += keywords[item]
+    for val in item: #Берем каждый символ ключа
+        for let in string: #Берем каждую букву в строке
+            if (val == let.upper()): #Сравниваем символ из списка, со значние символа строки (переведенный в верхний регистр)
+                sum += keywords[item] #Если условие выполняется, то берем значение по ключу и суммируем его в переменной
 
 print(sum)
